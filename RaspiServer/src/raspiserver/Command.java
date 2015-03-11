@@ -27,7 +27,6 @@ public class Command
 	}
 	
 	private String string;
-	private int steps;
 	
 	public Command( String string )
 	{

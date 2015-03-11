@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -142,7 +141,7 @@ public class Raspi implements Runnable
 
 			    InputStream is = conn.getInputStream();
 				BufferedReader rd = new BufferedReader( new InputStreamReader( is ) );
-
+				
 				String result = new String();
 				String line = null;
 				while( (line = rd.readLine()) != null )
